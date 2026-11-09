@@ -1,0 +1,2 @@
+char letter[5] = {'A', 'B', 'C', 'D', 'E'}
+char letters[] = "ABCDE";
