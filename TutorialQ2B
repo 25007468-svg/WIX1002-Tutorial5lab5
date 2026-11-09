@@ -1,0 +1,3 @@
+int[] num = int[10]
+for(int k=0 ;k<=num.length();k++)
+  sum+=num;
