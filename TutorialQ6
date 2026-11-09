@@ -1,0 +1,23 @@
+import java.util.Random
+public class BinaryRandom {
+    public static void main(String[] args) {
+        
+        Random rand = new Random();
+        int num = rand.nextInt(256); 
+        System.out.println("Randon number: " + num);
+
+              int[] binaryArray = new int[8];
+
+                int temp = num;
+        for (int i = 7; i >= 0; i--) {
+            binaryArray[i] = temp % 2; 
+            temp = temp / 2;           
+        }
+
+               System.out.print("bit into an 8 bit array: ");
+        for (int i = 0; i < 8; i++) {
+            System.out.print(binaryArray[i]);
+        }
+        System.out.println();
+    }
+}
