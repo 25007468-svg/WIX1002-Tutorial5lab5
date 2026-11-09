@@ -1,0 +1,8 @@
+int[][] t =new int[3][3]
+t[1][2] = 5
+
+
+
+imt[][] t =new int[3][]
+t[1]= new int[3]
+t[1][2] = 5
