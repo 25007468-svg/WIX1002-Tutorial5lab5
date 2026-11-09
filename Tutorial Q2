@@ -2,4 +2,4 @@ char[] letter = {'A', 'B', 'C', 'D', 'E'}
 char letters[] = "ABCDE";
 
 
-char[] letter = new letter[]{'A', 'B', 'C', 'D', 'E'}
+char[] letter = new letter[5]{'A', 'B', 'C', 'D', 'E'}
